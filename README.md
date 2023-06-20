@@ -1,7 +1,7 @@
 # Repository for Linux stuff used mostly (but not only) for FPGA IoT uses cases
+# Fork used for the GPIP project
 
 ## Supported boards
-* DE0 Nano SoC board: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=941
 * Arria10 SoC DevKit board: https://www.intel.com/content/www/us/en/products/details/fpga/development-kits/arria/10-sx.html
 
 ## Directory structure
@@ -43,7 +43,7 @@ In further documentation path to the build root directory will be called as [BUI
 * Clone poky: git clone -b kirkstone https://git.yoctoproject.org/git/poky, SHA: 2e79b199114b25d81bfaa029ccfb17676946d20d
 * Clone meta-openembedded: git clone -b kirkstone https://github.com/openembedded/meta-openembedded.git, SHA: 744a4b6eda88b9a9ca1cf0df6e18be384d9054e3
 * Clone meta-intel-fpga: git clone -b kirkstone https://git.yoctoproject.org/meta-intel-fpga, SHA: 71dd27d5776bfbba03da472272450f9d2ac076e2
-* Clone this repo: git clone -b main https://github.com/zbychl/meta-fpga-iot.git
+* Clone this repo: git clone -b main https://github.com/lightlead/meta-fpga-iot.git
 
 Next step depends on the board is going to be used:
 
