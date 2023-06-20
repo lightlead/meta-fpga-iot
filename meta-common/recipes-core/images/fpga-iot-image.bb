@@ -41,9 +41,14 @@ IMAGE_INSTALL:append = " \
 	dtc \
 "
 
-# For Apache
+# For Web Services
 IMAGE_INSTALL:append = " \
-	apache2 \
+	apache2 vsftpd \
+"
+
+# For TCL
+IMAGE_INSTALL:append = " \
+	tcl tk nodejs \
 "
 
 IMAGE_FEATURES:append = " "
