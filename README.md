@@ -1,5 +1,5 @@
 # Repository for Linux stuff used mostly (but not only) for FPGA IoT uses cases
-# Fork used for the GPIP project
+# Fork used for the GPIP project, all credits go to @zbychl
 
 ## Supported boards
 * Arria10 SoC DevKit board: https://www.intel.com/content/www/us/en/products/details/fpga/development-kits/arria/10-sx.html
